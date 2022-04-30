@@ -1,9 +1,10 @@
-var text = document.querySelector ('text');
+function start() {
+    var text = document.getElementById('numbers');
 
-text.onclick = function () {
-    text.style.color = 'red'
+    text.onclick = function () {
+        text.style.color = 'red'
+    }
 }
-
 
 // let buttonprev = document.querySelector ('#gallery .buttons .prev');
 
